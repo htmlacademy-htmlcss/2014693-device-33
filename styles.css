@@ -67,7 +67,11 @@ li{
 h1, h2 {
     visibility: hidden;
 }
-/* не работает свойство  */
 .slide {
     text-align: left;
+}
+
+.mailing-list{
+    background-color: #F0F0F0;
+    color: #444444;
 }
