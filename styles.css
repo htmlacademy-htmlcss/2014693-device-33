@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/rubik/rubik-800.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/raleway/raleway-800.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: white;
+    color: #444444;
+    ;
+}
+.header-index {
+    color: #444444;
+    background: #FFE17F
+}
+.navigation-link {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #444444;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+.second-navigation-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #444444;
+    text-decoration: none;
+    line-height: 21px;
+}
+li{
+    list-style: none;
+}
+.main-index {
+    background-color: rgba(255, 255, 255, 1);
+    color: #444444;
+    
+}
+h1, h2 {
+    visibility: hidden;
+}
+/* не работает свойство  */
+.slide {
+    text-align: left;
+}
